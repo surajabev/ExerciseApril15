@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create User</title>
+</head>
+<body>
+<h1>Create User</h1>
+<hr>
+<form action="create_user.html" method="POST" enctype="application/x-www-form-urlencoded">
+
+    <fieldset>
+      <legend>User Form</legend>
+      <label for="loginId">username></label>
+      <input type="text" name="username" placeholder="username" value="username" minlength="30"
+       maxlength="12" size="30">>   
+      <br> 
+      <label>Password</label>
+      <input type="password" name="pwd" placeholder="password" maxlength="8" size="30">            
+      <br>         
+      <input type="submit" value="Submit">
+
+      <label for="start">Birthday</label>
+
+      <input type="date" id="date" name="date" value="0000-00-00" min="1900-01-01" max="2021-12-31">
+     <input type="email"placeholder ="someone@somemail.com">Enter your email</input> 
+     <id="email"  name="email"max length="20" min length="10">
+        <input type="URL"placeholder ="https://www.google.com">Enter your URL</input> 
+        <id="url"  name="url"max length="20" min length="10">
+    <button type="button" onclick="alert('You clicked submit')">Submit!</button>
+
+
+    
+      </fieldset>
+    </form>  
+<legend>Search Input</legend>
+<form action="http://www.example.com/example.html" method="POST" 
+enctype="application/x-www-form-urlencoded">
+<button type="button" onclick="window.location.href='www.google.com';">Submit!</button>
+   
+<fieldset>
+
+
+
+</fieldset>
+
+
+</form>
+
+
+</body>
+</html>

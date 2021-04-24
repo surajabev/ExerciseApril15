@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create User</title>
+</head>
+<body>
+<h1>Create User</h1>
+<hr>
+<form action="create_user.html" method="POST" enctype="application/x-www-form-urlencoded">
+
+    <fieldset>
+      <legend>User Form</legend>
+      <label for="loginId">username></label>
+      <input type="text" name="username" placeholder="username" value="username" minlength="30" maxlength="12" size="30">>   
+      <br> 
+      <label>Password</label>
+      <input type="password" name="pwd" placeholder="password" maxlength="8" size="30">            
+      <br>         
+      <input type="submit" value="Submit">
+      <p>Select your favourite superhero</p>
+      <input type ="radio" name="superhero" value="Superman" id ="Superman">
+      <label for="Superman">Superman</label>
+      <input type ="radio" name="superhero" value="Batman" id ="Batman">
+      <label for="Batman">Batman</label>
+      <input type ="radio" name="superhero" value="Wonder Woman" id ="Wonder Woman">
+      <label for="Wonder Woman">Superman</label>
+      <input type ="radio" name="superhero" value="Flash" id ="Flash">
+      <label for="Flash">Flash</label>
+      <input type ="radio" name="superhero" value="Thor " id ="Thor ">
+      <label for="Thor ">Thor</label>
+      <input type ="radio" name="superhero" value="Hulk " id ="Hulk ">
+      <label for="Hulk ">Hulk</label>
+      <br>
+      <p>Select your favourite video game</p>
+      
+       <input type="hidden"  name="USERID" value="2300">
+       <input type="checkbox" name="videogames" value="Fifa" checked>Fifa</input>
+       <input type="checkbox" name="videogames" value="NHL" >NHL</input>
+       <input type="checkbox" name="videogames" value="Resident Evil" >Resident Evil</input>
+       <input type="checkbox" name="videogames" value="Uncharted" >Uncharted</input>
+        <input type="SUBMIT">
+        <input type="button" name="Clear" value="Clear">
+      <br>
+      <input type="image" name="login" src="img/register_button.png" width="200" height="50">
+     
+      </fieldset>
+   </form>  
